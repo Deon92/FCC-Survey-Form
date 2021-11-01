@@ -1,604 +1,594 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  #survey-form{
-    background: url("https://media.istockphoto.com/photos/puzzle-jigsaw-heart-on-brain-mental-health-concept-world-autism-day-picture-id1210226489?k=20&m=1210226489&s=612x612&w=0&h=qOouuO_MHX9HkdyN0ID6aBrItD3TBqxnxhuoRbOhjII=");
-    background-size: 100%;
-    padding: 2.5rem 0.625rem;
-    border-radius: 0.25rem;
-    background-attachment: fixed;
-  }
-  #title{
-    color: #445022;
-    background-color: #C3B091;
-    margin-right: 570px;
-    margin-left: 570px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 0.25rem;
-    opacity: 0.9;
-  }
-  #quote{
-    color: #23395d;
-    margin-left: 570px;
-    margin-right: 570px;
-    padding-left: 200px;
-  }
-  #info{
-    background-color: #C3B091;
-    margin-right: 570px;
-    margin-left: 570px;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    border-radius: 0.25rem;
-    opacity: 0.9;
-  }
-  #description{
-    text-align: center;
-    padding-right: 50px;
-  }
-  
-  #Bio{
-    text-align: left;
-    color: white;
-    padding-left: 30px;
-  }
-  ::placeholder{
-    padding-left: 20px;
-  }
-  #name-label{
-    font-size: 20px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-top: 50px;
-  }
-  #sur-label{
-    font-size: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-  }
-  #email-label{
-    font-size: 20px;
-    padding-right: 200px;
-    padding-bottom: 20px;
-  }
-  #number-label{
-    color: white;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-  #phone-label{
-    color: white;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-  .form-group-name{
-    padding-bottom: 10px;
-  }
-  .form-group-sur{
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .form-group-email{
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .form-group-num{
-    float: left;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    padding-left: 40px;
-  }
-  .form-group-phone{
-    float: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-  .form-group-dob{
-    padding-bottom: 20px;
-  }
-  .form-group-gender{
-    float: center;
-    padding-top: 50px;
-    padding-left: 500px;
-  }
-  #tel-no{
-    color: black;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  #name{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #sname{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #email{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #number{
-    font-size: 15px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    border-radius: 0.25rem
-  }
-  #phone{
-    font-size: 15px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 1px;
-    border-radius: 0.25rem
-  }
-  #dob-label{
-    color: white;
-    text-align: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-  #Gender{
-    color: black;
-    font-size: 16px;
-    padding-bottom: 5px;
-  }
-  #male-label{
-    color: white;
-    font-size: 16px;
-    padding-right: 5px;
-  }
-  #female-label{
-    color: white;
-    font-size: 16px;
-    padding-right: 5px;
-  }
-  #dropdown{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #dropdown-month{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #dropdown-day{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #feeling-dep{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 30px;
-  }
-  #interest{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #sleep{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #tired{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #eating{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #letting-down{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 2px;
-  }
-  #concentration{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 2px;
-  }
-  #buttons-dep{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-int{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-sleep{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-tired{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-eating{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-letting-down{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-concentration{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #comment{
-    text-align: center;
-    padding-top: 20px;
-  }
-  .submit-button{
-    font-size: 14px;
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 0.25rem;
-  }
-  .form-group{
-    padding-top: 20px;
-  }
-  
-  
-  @media(max-width: 1920px){
-    * {
-    margin: 0;
-    padding: 0;
-  }
-  #survey-form{
-    background: url("https://media.istockphoto.com/photos/puzzle-jigsaw-heart-on-brain-mental-health-concept-world-autism-day-picture-id1210226489?k=20&m=1210226489&s=612x612&w=0&h=qOouuO_MHX9HkdyN0ID6aBrItD3TBqxnxhuoRbOhjII=");
-    background-size: 100%;
-    padding: 2.5rem 0.625rem;
-    border-radius: 0.25rem;
-    background-attachment: fixed;
-  }
-  #title{
-    color: #445022;
-    background-color: #C3B091;
-    margin-right: 570px;
-    margin-left: 570px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 0.25rem;
-    opacity: 0.9;
-  }
-  #quote{
-    color: #23395d;
-    margin-left: 570px;
-    margin-right: 570px;
-    padding-left: 200px;
-  }
-  #info{
-    background-color: #C3B091;
-    margin-right: 570px;
-    margin-left: 570px;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    border-radius: 0.25rem;
-    opacity: 0.9;
-  }
-  #description{
-    text-align: center;
-    padding-right: 50px;
-  }
-  
-  #Bio{
-    text-align: left;
-    color: white;
-    padding-left: 30px;
-  }
-  ::placeholder{
-    padding-left: 20px;
-  }
-  #name-label{
-    font-size: 20px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-top: 50px;
-  }
-  #sur-label{
-    font-size: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-  }
-  #email-label{
-    font-size: 20px;
-    padding-right: 200px;
-    padding-bottom: 20px;
-  }
-  #number-label{
-    color: white;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-  #phone-label{
-    color: white;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-  .form-group-name{
-    padding-bottom: 10px;
-  }
-  .form-group-sur{
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .form-group-email{
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .form-group-num{
-    float: left;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    padding-left: 40px;
-  }
-  .form-group-phone{
-    float: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-  .form-group-dob{
-    padding-bottom: 20px;
-  }
-  .form-group-gender{
-    float: center;
-    padding-top: 50px;
-    padding-left: 500px;
-  }
-  #tel-no{
-    color: black;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  #name{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #sname{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #email{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 467px;
-    border-radius: 0.25rem
-  }
-  #number{
-    font-size: 15px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    border-radius: 0.25rem
-  }
-  #phone{
-    font-size: 15px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 1px;
-    border-radius: 0.25rem
-  }
-  #dob-label{
-    color: white;
-    text-align: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-  #Gender{
-    color: black;
-    font-size: 16px;
-    padding-bottom: 5px;
-  }
-  #male-label{
-    color: white;
-    font-size: 16px;
-    padding-right: 5px;
-  }
-  #female-label{
-    color: white;
-    font-size: 16px;
-    padding-right: 5px;
-  }
-  #dropdown{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #dropdown-month{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #dropdown-day{
-    font-size: 16px;
-    text-align: center;
-    padding-right: 10px;
-    border-radius: 0.25rem;
-  }
-  #feeling-dep{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 30px;
-  }
-  #interest{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #sleep{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #tired{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #eating{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-  }
-  #letting-down{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 2px;
-  }
-  #concentration{
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 2px;
-  }
-  #buttons-dep{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-int{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-sleep{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-tired{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-eating{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-letting-down{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #buttons-concentration{
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    padding-bottom: 20px;
-    padding-left: 20px;
-  }
-  #comment{
-    text-align: center;
-    padding-top: 20px;
-  }
-  .submit-button{
-    font-size: 14px;
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 0.25rem;
-  }
-  .form-group{
-    padding-top: 20px;
-  }
-  }
+  margin: 0;
+  padding: 0;
+}
+#survey-form{
+  background: url("https://media.istockphoto.com/photos/puzzle-jigsaw-heart-on-brain-mental-health-concept-world-autism-day-picture-id1210226489?k=20&m=1210226489&s=612x612&w=0&h=qOouuO_MHX9HkdyN0ID6aBrItD3TBqxnxhuoRbOhjII=");
+  background-size: 100%;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  background-attachment: fixed;
+}
+#title{
+  color: #445022;
+  background-color: #C3B091;
+  margin-right: 570px;
+  margin-left: 570px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0.25rem;
+  opacity: 0.9;
+}
+#quote{
+  color: #23395d;
+  text-align: center;
+}
+#info{
+  background-color: #C3B091;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  border-radius: 0.25rem;
+  opacity: 0.9;
+}
+#description{
+  text-align: center;
+  padding-right: 50px;
+}
+
+#Bio{
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+}
+::placeholder{
+  padding-left: 20px;
+}
+#name-label{
+  font-size: 20px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+#sur-label{
+  font-size: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+#email-label{
+  font-size: 20px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+#number-label{
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+#phone-label{
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.form-group-name{
+  padding-bottom: 10px;
+}
+.form-group-sur{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.form-group-email{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.form-group-num{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+.form-group-phone{
+  float: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.form-group-dob{
+  padding-bottom: 20px;
+}
+.form-group-gender{
+  float: center;
+  padding-top: 50px;
+  padding-left: 500px;
+}
+#tel-no{
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#name{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#sname{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#email{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#number{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  border-radius: 0.25rem
+}
+#phone{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 1px;
+  border-radius: 0.25rem
+}
+#dob-label{
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#Gender{
+  color: black;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+#male-label{
+  color: white;
+  font-size: 16px;
+  padding-right: 5px;
+}
+#female-label{
+  color: white;
+  font-size: 16px;
+  padding-right: 5px;
+}
+#dropdown{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#dropdown-month{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#dropdown-day{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#feeling-dep{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#interest{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#sleep{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#tired{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#eating{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#letting-down{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+#concentration{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+#buttons-dep{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-int{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-sleep{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-tired{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-eating{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-letting-down{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-concentration{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#comment{
+  text-align: center;
+  padding-top: 20px;
+}
+.submit-button{
+  font-size: 14px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.25rem;
+}
+.form-group{
+  padding-top: 20px;
+}
+
+
+@media(max-width: 1920px){
+    #info{
+    min-height: 300px;
+    width: 80%;
+    }
+  }
+#survey-form{
+  background: url("https://media.istockphoto.com/photos/puzzle-jigsaw-heart-on-brain-mental-health-concept-world-autism-day-picture-id1210226489?k=20&m=1210226489&s=612x612&w=0&h=qOouuO_MHX9HkdyN0ID6aBrItD3TBqxnxhuoRbOhjII=");
+  background-size: 100%;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  background-attachment: fixed;
+}
+#title{
+  color: #445022;
+  background-color: #C3B091;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0.25rem;
+  opacity: 0.9;
+}
+#quote{
+  color: #23395d;
+}
+#info{
+  background-color: #C3B091;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  border-radius: 0.25rem;
+  opacity: 0.9;
+}
+#description{
+  text-align: center;
+  padding-right: 50px;
+}
+
+#Bio{
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+}
+::placeholder{
+  padding-left: 20px;
+}
+#name-label{
+  font-size: 20px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+#sur-label{
+  font-size: 20px;
+  padding-right: 177px;
+  padding-bottom: 40px;
+}
+#email-label{
+  font-size: 20px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+}
+#number-label{
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+#phone-label{
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.form-group-name{
+  padding-bottom: 10px;
+}
+.form-group-sur{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.form-group-email{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.form-group-num{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+.form-group-phone{
+  float: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.form-group-dob{
+  padding-bottom: 20px;
+}
+.form-group-gender{
+  float: center;
+  padding-top: 50px;
+  padding-left: 700px;
+}
+#tel-no{
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#name{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#sname{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#email{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 467px;
+  border-radius: 0.25rem
+}
+#number{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  border-radius: 0.25rem
+}
+#phone{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 1px;
+  border-radius: 0.25rem
+}
+#dob-label{
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#Gender{
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+#male-label{
+  color: black;
+  font-size: 16px;
+  padding-right: 5px;
+}
+#female-label{
+  color: black;
+  font-size: 16px;
+  padding-right: 5px;
+}
+#dropdown{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#dropdown-month{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#dropdown-day{
+  font-size: 16px;
+  text-align: center;
+  padding-right: 10px;
+  border-radius: 0.25rem;
+}
+#feeling-dep{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+#interest{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#sleep{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#tired{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#eating{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+#letting-down{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+#concentration{
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+#buttons-dep{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-int{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-sleep{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-tired{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-eating{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-letting-down{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#buttons-concentration{
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+#comment{
+  text-align: center;
+  padding-top: 20px;
+}
+.submit-button{
+  font-size: 14px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.25rem;
+}
+.form-group{
+  padding-top: 20px;
+}
